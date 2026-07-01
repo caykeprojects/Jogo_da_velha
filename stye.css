@@ -36,18 +36,28 @@ body {
 .blocos {
     border-radius: 20px;
     cursor: pointer;
-    gap: 20px;
+    width: 180px;
+    height: 180px;
     border: solid wheat;
     background-color: #d68a84;
+    font-size: 4rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.blocos:hover{
+.blocos:hover {
     background-color: #d6898484;
-
 }
 
 .titulo{
     color: aliceblue;
     padding: 40px;
     font-size: 70px;
+}
+.jogador{
+    color: aliceblue;
+    padding: 20px;
+    font-size: 30px;
 }
